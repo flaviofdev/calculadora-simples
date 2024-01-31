@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="calculadora">
+        <input id="display" readonly>
+        <div id="teclas">
+            <button onclick="anexarAoDisplay('+')" class="tecla-operadora">+</button>
+            <button onclick="anexarAoDisplay('7')">7</button>
+            <button onclick="anexarAoDisplay('8')">8</button>
+            <button onclick="anexarAoDisplay('9')">9</button>
+            <button onclick="anexarAoDisplay('-')" class="tecla-operadora">-</button>
+            <button onclick="anexarAoDisplay('4')">4</button>
+            <button onclick="anexarAoDisplay('5')">5</button>
+            <button onclick="anexarAoDisplay('6')">6</button>
+            <button onclick="anexarAoDisplay('*')" class="tecla-operadora">*</button>
+            <button onclick="anexarAoDisplay('1')">1</button>
+            <button onclick="anexarAoDisplay('2')">2</button>
+            <button onclick="anexarAoDisplay('3')">3</button>
+            <button onclick="anexarAoDisplay('/')" class="tecla-operadora">/</button>
+            <button onclick="anexarAoDisplay('0')">0</button>
+            <button onclick="anexarAoDisplay('.')">.</button>
+            <button onclick="calcular()">=</button>
+            <button onclick="limparDisplay()" class="tecla-operadora">C</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
